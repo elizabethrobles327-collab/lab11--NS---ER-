@@ -5,3 +5,31 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/elizabethrobles327-collab/lab11--NS---ER-.git
 git push -u origin main
+
+git clone <repository link> # clone remote repository
+cd <repository_folder>
+
+import math
+def add(a, b): 
+  return a + b
+
+def sub(a, b): 
+  return a - b
+
+def mul(a, b): 
+  return a * b
+
+def div(a, b): 
+  try:
+    if a == 0:
+      raise ZeroDivisionError
+    return b / a 
+  except NonZeroDivision:
+    print("Division Error")
+
+import math
+def log(a, b): 
+  math.log(100, 0)
+
+def exp(a, b): 
+  return ab
